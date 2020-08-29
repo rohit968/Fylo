@@ -1,0 +1,270 @@
+:root {
+	--LightGray: hsl(0, 0%, 30%);
+	--VeryDarkBlue: hsl(243, 87%, 12%);
+	--DesaturatedBlue: hsl(238, 22%, 44%);
+	--BrightBlue: hsl(224, 93%, 58%);
+	--ModerateCyan: hsl(170, 45%, 43%);
+	--LightGrayishBlue: hsl(240, 75%, 98%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	max-width: 1440px;
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 70px;
+	margin-top: 40px;
+}
+
+.menu {
+	list-style: none;
+}
+
+.menu li {
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.menu li a {
+	color: var(--LightGray);
+}
+
+.mainSection {
+	margin: 30px 50px 0 50px ;
+	display: flex;	
+	min-height: 80vh;
+}
+
+.mainSectionLeft {
+	width: 50%;
+}
+
+.mainSectionRight {
+	width: 50%;
+}
+
+.mainSectionLeft .content {
+	margin-top: 20vh;
+	margin-left: 10px;	
+}
+
+.content h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+}
+
+.content p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;	
+}
+
+.mainSectionLeft .button input {
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 300px;
+}
+
+.mainSectionLeft .button button {
+	padding: 11px 50px 11px 50px;
+	background-color: var(--BrightBlue);
+	color: white;
+	cursor: pointer;
+	font-family: 'Raleway', sans-serif;
+	border: none;
+	box-shadow: 0px 3px 15px rgba(0,0,0,.7);
+}
+
+.mainSectionRight img {
+	height: 75vh;
+	width: 600px;
+	margin-left: 20px;
+}
+
+.centerSection {
+	margin-top: -10px;
+	padding: 30px 50px 0 50px ;
+	display: flex;	
+	min-height: 120vh;
+	background-color: var(--LightGrayishBlue);
+}
+
+.centerSectionLeft {
+	width: 50%;
+}
+
+.centerSectionRight {
+	width: 50%;
+}
+
+.centerSectionLeft .content p {
+	margin-top: 20px;
+	font-size: 17px;
+}
+
+.centerSectionLeft .content button {
+	margin-top: 10px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom-color: var(--ModerateCyan);
+	font-family: 'Raleway', sans-serif;
+	padding: 10px 20px 10px 20px;
+	font-size: 15px;
+	color: var(--ModerateCyan);
+	background-color: var(--LightGrayishBlue);
+}
+
+.centerSectionLeft .content img {
+	width: 20px;
+}
+
+.quote {
+	margin-top: 40px;
+	width: 350px;
+	height: 40vh;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0px 3px 15px rgba(0,0,0,.3);
+}
+
+.centerSection .centerSectionLeft .quote p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	display: inline-block;
+}
+
+.centerSection .info img {
+	margin-top: 20px;
+	margin-left: 10px;
+	border: 0.1px solid;
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+}
+
+.text {
+	display: inline;
+	margin-top: -300px;
+	margin-left: 10px;
+}
+
+.centerSectionRight img {
+	height: 75vh;
+	width: 600px;
+	margin-left: 20px;
+}
+
+.lastSection {
+	margin-top: -30px;
+	min-height: 40vh;
+	display: flex;
+	background-color: var(--DesaturatedBlue);
+}
+
+.lastSectionLeft {
+	width: 50%;
+}
+
+.lastSectionRight{
+	width: 50%;
+}
+
+.lastSectionLeft .content {
+	color: white;
+	padding-top: 50px;
+	margin-left: 40px;
+	width: 70%;
+}
+
+
+.lastSectionLeft .content h2 {
+	font-size: 30px;
+}
+
+.lastSectionLeft .content p {
+	font-size: 17px;
+	margin-top: 20px;
+}
+
+.lastSectionRight .freeAccess {
+	margin-top: 25px;
+	margin-left: 60px;
+}
+
+.freeAccess input {
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 70%;
+}
+
+.freeAccess button {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 11px 50px 11px 50px;
+	background-color: var(--BrightBlue);
+	color: white;
+	cursor: pointer;
+	font-family: 'Raleway', sans-serif;
+	border: none;
+}
+
+.contactSection {
+	min-height: 60vh;
+	background-color: var(--VeryDarkBlue);
+	display: flex;
+	color: white;
+}
+
+.first, .second, .third, .fourth {
+	width: 25%;
+}
+
+.firstInfo, .secondInfo, .thirdInfo, .fourthInfo {
+	margin-left: 50px;
+	padding-top: 80px;
+}
+
+.first .contactLogo {
+	display: block;
+}
+
+.first p{
+	margin-top: 20px;
+}
+
+.first span {
+	margin-left: 20px;
+}
+
+.menu-area {
+	padding-top: 30px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.menu-area li {
+	display: block;
+	margin-top: 20px;
+}
+
+.menu-area li a {
+	color: white;
+}
